@@ -13,7 +13,7 @@ describe("RadomNumber fuction test", () => {
   it("Pruebas de funcionamiento", () => {
     const generadorNumeros = RandomNumber.getRadomNumberInstance();
     const coleccion = new RadomNumberSetCollection<Number>();
-    const emptySet = new Set(); 
+    const emptySet = new Set();
     coleccion.addData(generadorNumeros.getRandomFloatRange01());
     coleccion.addData(generadorNumeros.getRandomFloatRange01());
     coleccion.addData(generadorNumeros.getRandomFloatRange01());
