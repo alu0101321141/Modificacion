@@ -2,7 +2,6 @@ import "mocha";
 import {expect} from 'chai';
 import {Revista} from '../src/modificacion6-04-2022/ejercicio1-claseRevista';
 import {UsuarioRevistaSubscriptor} from '../src/modificacion6-04-2022/ejercicio1-claseUsuario';
-import { Observer } from "../src/modificacion6-04-2022/ejercicio1-interfaces";
 
 describe("Revista y usuarioSubscriptor fuction test", () => {
   it("prueba de existencia", () => {
